@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab21_02.a25nabi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Splashscreen">
+
+        <!--  -->
+        <activity
+            android:name=".Splashscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  -->
+
+
+        <!-- Halaman Home -->
+        <activity
+            android:name=".MainActivity" />
+        <!-- End Halaman Home -->
+
+
+        <!-- Halamann Cerita Nabi Adam -->
+        <!-- Halaman Nabi Adam 1 -->
+        <activity
+            android:name=".Main2Activity" />
+        <!-- End Halaman Nabi Adam 1 -->
+
+
+        <!-- Halaman Nabi Adam 2 -->
+        <activity
+            android:name=".Main3Activity" />
+        <!-- End Halaman Nabi Adam 2 -->
+
+
+        <!-- Halaman Nabi Adam 3 -->
+        <activity
+            android:name=".Main4Activity" />
+        <!-- End Halaman Nabi Adam 3 -->
+
+
+        <!-- Halaman Nabi Adam 4 -->
+        <activity
+            android:name=".Main5Activity" />
+        <!-- End Halaman Nabi Adam 4 -->
+
+
+        <!-- Halaman Nabi Adam 5 -->
+        <activity
+            android:name=".Main6Activity" />
+        <!-- Halaman Nabi Adam 5 -->
+
+
+        <!-- Halaman Nabi Adam 6 -->
+        <activity
+            android:name=".Main7Activity" />
+        <!-- End Halaman Nabi Adam 6 -->
+
+
+        <!-- Halaman Nabi Adam 7 -->
+        <activity
+            android:name=".Main8Activity" />
+        <!-- End Halaman Nabi Adam 7 -->
+
+
+        <!-- Halaman Nabi Adam 8 -->
+        <activity
+            android:name=".Main9Activity" />
+        <!-- End Halaman Nabi Adam 8 -->
+
+
+        <!-- Halaman Nabi Adam 9 -->
+        <activity
+            android:name=".Main10Activity" />
+        <!-- End Halaman Nabi Adam 9 -->
+
+
+        <!-- Halaman Nabi Adam 10 -->
+        <activity
+            android:name=".Main11Activity" />
+        <!-- End Halaman Nabi Adam 10 -->
+        <!-- Halamann Cerita Nabi Adam -->
+
+        <!---->
+        <activity android:name=".Main12Activity" />
+    </application>
+
+</manifest>

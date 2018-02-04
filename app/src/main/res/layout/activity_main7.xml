@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nabi_adam6"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lab21_02.a25nabi.Main7Activity">
+
+    <!--Source Code Home-->
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="kembali_ke_activity"
+        />
+    <!--End Source Code Home-->
+
+    <!--Source Code Next-->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="pindah_ke_activity_8"
+        />
+    <!--End Source Code Next-->
+
+    <!--Source Code Back-->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="kembali_ke_activity_6"
+        />
+    <!--End Source Code Back-->
+
+</RelativeLayout>
